@@ -8,7 +8,7 @@
     <ProjectGuid>{61BADBD3-E296-43D0-B1F3-4C5B95BC8965}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>KMSMigration</RootNamespace>
+    <RootNamespace>RecStorageMigration</RootNamespace>
     <AssemblyName>RecStorageMigration</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -36,7 +36,7 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>StroageMigration.ico</ApplicationIcon>
+    <ApplicationIcon>StorageMigration.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
@@ -103,8 +103,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="KMSMigration.ico" />
-    <Content Include="StroageMigration.ico" />
+    <Content Include="StorageMigration.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
